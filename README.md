@@ -2,6 +2,7 @@
 open project to explore RTL design using different tools.
 
 
+```
 rtl-explorer/
 ├── frontend/
 │   ├── mkdocs.yml
@@ -29,3 +30,4 @@ rtl-explorer/
 |
 ├── README.md
 ├── LICSENSE
+```
