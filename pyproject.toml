@@ -1,0 +1,16 @@
+[project]
+name = "rtl-explorer"
+version = "0.1.0"
+description = "Online RTL synthesis playground"
+requires-python = ">=3.11"
+
+dependencies = [
+    "mkdocs>=1.6,<2",
+]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = []

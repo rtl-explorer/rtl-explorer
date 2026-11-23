@@ -1,0 +1,23 @@
+# Editor
+.vscode/
+.idea/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Python packaging
+*.egg-info/
+build/
+dist/
+
+# MkDocs generated website
+frontend/site/
+
+# OS
+.DS_Store
+
+# Temporary files
+*.log
