@@ -10,9 +10,19 @@ rtl-explorer/
 │       ├── index.md
 │       ├── playground.md
 │       └── assets/
-│           ├── css/
-│           └── js/
-│
+│           └── css/
+│           │   └── playground.css
+│           ├── js/
+│               ├── monaco.js
+│               │
+│               ├── tools/
+│               │   ├── verible.js
+│               │   └── yosys.js
+│               │
+│               └── workers/
+│                   ├── verible.worker.js
+│                   └── yosys.worker.js
+
 ├── backend/
 │   ├── src/
 │   ├── tests/
@@ -22,12 +32,12 @@ rtl-explorer/
 │   ├── docker/
 │   └── deployment/
 │
-├── .github/
-│   └── workflows/
-├── .gitignore
-│
 ├── pyproject.toml
 |
 ├── README.md
 ├── LICSENSE
+│
+├── .github/
+│   └── workflows/
+├── .gitignore
 ```

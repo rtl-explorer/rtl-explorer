@@ -1,0 +1,30 @@
+.code-toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.code-container {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    border: 1px solid #444;
+}
+
+#monaco-editor {
+    flex: 3;
+    min-width: 0;
+    height: 100%;
+}
+
+.code-results {
+    flex: 2;
+    min-width: 0;
+    padding: 15px;
+    overflow: auto;
+}
+
+#code-output {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}

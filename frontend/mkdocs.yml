@@ -1,7 +1,16 @@
-site_name: MkLorum
+site_name: RTL Explorer
+site_description: Online RTL Explorer
+
+theme:
+  name: mkdocs
 
 nav:
   - Home: index.md
-  - About: about.md
+  - Playground: playground.md
 
-theme: readthedocs
+extra_css:
+  - assets/css/playground.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.52.2/min/vs/loader.min.js
+  - assets/js/monaco.js
